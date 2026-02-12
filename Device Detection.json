@@ -1,0 +1,3761 @@
+[
+    {
+        "id": "800e55ff81b5378e",
+        "type": "tab",
+        "label": "DevDetect",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8763e1568cf1e0af",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Receive STATUS, DevInfo & LWT messages from EVERYTHING",
+        "style": {
+            "fill": "#addb7b",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f346bfd2ef7788ef",
+            "ab28aef86f1aa77b",
+            "9eeaa2cc423fa2ed",
+            "b38df5d40c8fb11b",
+            "7ac3f09b4c2e9f54",
+            "89d66d992b8ec645",
+            "0ef73bdff1329090",
+            "e2024881eb7a6bf9",
+            "fe65628e5cc9b1ac",
+            "53ed852545fa54db",
+            "76f8b9de0455b4dd",
+            "cfd9287b1fda3322",
+            "cd10636abeaea75a",
+            "47fd6e7e1b0d8cda",
+            "67a173274e545ea1",
+            "ca67b1660d53e227",
+            "08388b4b7ce3bb21",
+            "69a6a730f108d642",
+            "caea92f289ef5050",
+            "d0c338b8021c2aa4",
+            "f1760b4254b65e9f",
+            "e5861f3a6c046a47",
+            "3dbb1de161094b78",
+            "f4b6f8783ca93210",
+            "c8e2f1f1951b4bbf",
+            "5d42e41329e96308",
+            "0c427fae7fc94c6e",
+            "55225be15df5c019",
+            "e65019f402100987",
+            "57f3ed7f1d3358fb",
+            "98e23ae0abfa52a0"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 1212,
+        "h": 402
+    },
+    {
+        "id": "c8558ddf0fdcaa29",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Commit data to FLOW as arrays (tasmotasIoTDevicesA, ProdDevicesA , TestDevicesA, LabDevicesA)",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "eaefb9936ec27f67",
+            "56255ea1db1aa945",
+            "aea730a909b43696",
+            "29a1edcfa635a3fc",
+            "7f72cb1fc4d065ab",
+            "7cf9e4d81124e981",
+            "6401cd1dc99b38dc",
+            "86057feec8016f5c",
+            "f833c5a7d9112cf1",
+            "b833e92015dc01da"
+        ],
+        "x": 1234,
+        "y": 219,
+        "w": 872,
+        "h": 202
+    },
+    {
+        "id": "ba5045cf2f034325",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Commit data to FLOW (IoTdevices)",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "68bd4a0d40302452",
+            "e355dfc59b93d26d",
+            "8e31c13c39fdb4aa",
+            "0b677aafbd1c4117",
+            "8aa16c39370f34db",
+            "9fe00e1d2a2970f1",
+            "2f3162dd838c3872",
+            "f1e206de0ed4f195",
+            "4ce1a4daf658e276",
+            "382782b60be93edc",
+            "931beb2190092463"
+        ],
+        "x": 1234,
+        "y": 19,
+        "w": 872,
+        "h": 182
+    },
+    {
+        "id": "ea04aab72d50bda9",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Build Lumped Dashboard",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a2b15528fdbdc349",
+            "02d1425d25eb3a92",
+            "213d1e2f6de8dbcd",
+            "c6027a6ba7da5f4c",
+            "dacc140467069218",
+            "a363ad5bac5a3694",
+            "6841b89f9d493012",
+            "f1470bbc03ee8507",
+            "58414fea32671a70",
+            "a57e184b3d41d759",
+            "197a7b0da8278346"
+        ],
+        "x": 14,
+        "y": 619,
+        "w": 932,
+        "h": 162
+    },
+    {
+        "id": "6b869e6d07ccd440",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Build the PRODUCTION Dashboard",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "010d131944ea2ab8",
+            "e2951c65428f135e",
+            "d53407f0878e4ecb",
+            "5c4bbdf45063485a",
+            "04e26fb90cb8920a",
+            "6726f8ee35e86b62",
+            "7ef42934afdd4c22",
+            "86f25741693713d7",
+            "f68966758906e099",
+            "7364208776a122de",
+            "2897154c3eb30b98"
+        ],
+        "x": 1104,
+        "y": 619,
+        "w": 1002,
+        "h": 162
+    },
+    {
+        "id": "ec023c4dcbbce0bb",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Build the LAB Dashboard",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a2c1388aeceebc4c",
+            "13681bfb4ec478cf",
+            "4b895b2c95beacf7",
+            "d5115e821e8e2c5a",
+            "03d4034e27a5800a",
+            "fd0bafb6d8b0c12c",
+            "7c28c822e42b3b7e",
+            "5996ee7aaf936ef7",
+            "268d7ce2dfc6d39a",
+            "5c71e2b8e50a96c1",
+            "03e290050749d720"
+        ],
+        "x": 1104,
+        "y": 799,
+        "w": 1002,
+        "h": 162
+    },
+    {
+        "id": "8de10e0d0466125d",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Build the TESTING Dashboard",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ace47d0b20fa2259",
+            "d89270090f29d149",
+            "aab56e5cd0f74f5e",
+            "fe724844267761aa",
+            "056e923da0758b33",
+            "85e58d34c3af3cba",
+            "77fb98da04c7c216",
+            "cda265f8aacc52cf",
+            "fc73626216ae29a0",
+            "7e1edd82b28928f4",
+            "457f782d8179df98"
+        ],
+        "x": 1104,
+        "y": 979,
+        "w": 1002,
+        "h": 162
+    },
+    {
+        "id": "e9d73aa0fa31e45c",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Lumped List",
+        "style": {
+            "fill": "#ffff7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "12d5b23120afd8e1",
+            "c83e2cdaebe846c1",
+            "ff93b792dd9f7b09",
+            "b1d3c85a21e1d5cc",
+            "ae93e0247e0ded12"
+        ],
+        "x": 14,
+        "y": 439,
+        "w": 472,
+        "h": 162
+    },
+    {
+        "id": "917daaaec20f25f2",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Grouped Lists",
+        "style": {
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a21880a5e08dfa9a",
+            "1704e374c5e0a9ea",
+            "e5902d68e72147a8",
+            "d1a4f5bd8929b05f",
+            "0f0f7e30cb48eb60",
+            "cc0ee9285fc480e2",
+            "3c669b2a775f8a2e",
+            "b0589e5e121d4c8d",
+            "0b06c2ef150ee960",
+            "29f430eba345d742",
+            "95cd9d38e4271616",
+            "534c74dcaab64c9c"
+        ],
+        "x": 1104,
+        "y": 434,
+        "w": 1002,
+        "h": 172
+    },
+    {
+        "id": "f346bfd2ef7788ef",
+        "type": "mqtt in",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Mosquito0",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3da52ca9a787511",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "53ed852545fa54db"
+            ]
+        ]
+    },
+    {
+        "id": "ab28aef86f1aa77b",
+        "type": "mqtt in",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Mosquito1",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3cfa1fac61dca0ec",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "76f8b9de0455b4dd"
+            ]
+        ]
+    },
+    {
+        "id": "9eeaa2cc423fa2ed",
+        "type": "mqtt in",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Mosquito2",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dccc3b5ab802f58f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "cfd9287b1fda3322"
+            ]
+        ]
+    },
+    {
+        "id": "b38df5d40c8fb11b",
+        "type": "mqtt in",
+        "z": "800e55ff81b5378e",
+        "d": true,
+        "g": "8763e1568cf1e0af",
+        "name": "SkyNet",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "542e9a8a.0d3104",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "cd10636abeaea75a"
+            ]
+        ]
+    },
+    {
+        "id": "7ac3f09b4c2e9f54",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "split topic",
+        "func": "const levels = msg.topic.split('/');\nmsg.appId = levels;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "89d66d992b8ec645"
+            ]
+        ]
+    },
+    {
+        "id": "89d66d992b8ec645",
+        "type": "switch",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Prefix",
+        "property": "appId[0]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "tele",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "stat",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "cmnd",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "0ef73bdff1329090"
+            ],
+            [
+                "e2024881eb7a6bf9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0ef73bdff1329090",
+        "type": "switch",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "tele",
+        "property": "appId[2]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "LWT",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATE",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "3dbb1de161094b78"
+            ],
+            [
+                "67a173274e545ea1",
+                "f1760b4254b65e9f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e2024881eb7a6bf9",
+        "type": "switch",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "stat",
+        "property": "appId[2]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "STATUS",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS5",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS6",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS7",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS8",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS9",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS10",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATUS11",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "POWER",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "RESULT",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "DevInfo",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 17,
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "08388b4b7ce3bb21",
+                "98e23ae0abfa52a0"
+            ],
+            [
+                "47fd6e7e1b0d8cda",
+                "98e23ae0abfa52a0"
+            ],
+            [
+                "69a6a730f108d642",
+                "98e23ae0abfa52a0"
+            ],
+            [
+                "ca67b1660d53e227",
+                "98e23ae0abfa52a0"
+            ],
+            [
+                "f4b6f8783ca93210"
+            ],
+            [
+                "c8e2f1f1951b4bbf"
+            ],
+            [
+                "d0c338b8021c2aa4",
+                "98e23ae0abfa52a0"
+            ],
+            [
+                "5d42e41329e96308"
+            ],
+            [
+                "0c427fae7fc94c6e"
+            ],
+            [
+                "55225be15df5c019"
+            ],
+            [
+                "e65019f402100987"
+            ],
+            [
+                "57f3ed7f1d3358fb"
+            ],
+            [
+                "caea92f289ef5050",
+                "98e23ae0abfa52a0"
+            ],
+            [],
+            [],
+            [
+                "e5861f3a6c046a47",
+                "98e23ae0abfa52a0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fe65628e5cc9b1ac",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Adjust these",
+        "info": "You'll need one \"MQTT-In\" for each \nMQTT broker on your network that \nmight have Tasmota devices connecting.\n",
+        "x": 110,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "53ed852545fa54db",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Broker",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Broker",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 160,
+        "wires": [
+            [
+                "7ac3f09b4c2e9f54"
+            ]
+        ]
+    },
+    {
+        "id": "76f8b9de0455b4dd",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Broker",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Broker",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "7ac3f09b4c2e9f54"
+            ]
+        ]
+    },
+    {
+        "id": "cfd9287b1fda3322",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Broker",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Broker",
+                "pt": "msg",
+                "to": "2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "7ac3f09b4c2e9f54"
+            ]
+        ]
+    },
+    {
+        "id": "cd10636abeaea75a",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Broker",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Broker",
+                "pt": "msg",
+                "to": "SkyNet",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "7ac3f09b4c2e9f54"
+            ]
+        ]
+    },
+    {
+        "id": "47fd6e7e1b0d8cda",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "STATUS0",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "67a173274e545ea1",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "tele/+/STATE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ca67b1660d53e227",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "FWR - 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "08388b4b7ce3bb21",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "stat/+/STATUS",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "69a6a730f108d642",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "PRM - 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "caea92f289ef5050",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "STS - 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d0c338b8021c2aa4",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "NET - 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f1760b4254b65e9f",
+        "type": "link out",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Original",
+        "mode": "link",
+        "links": [
+            "e355dfc59b93d26d"
+        ],
+        "x": 635,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "68bd4a0d40302452",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "Create / update objects",
+        "func": "var d = new Date().toLocaleDateString();\nvar t = new Date().toLocaleTimeString();\n\n// var DeviceGroup + \".\" = \"DEVICES.\";\nvar DeviceGroup = msg.DeviceGroup;\n\n// var TasmotaCount = flow.get(\"home.tasmotacount\");\n\n// create the sonoffs object if it doesn't exist\n////// if (typeof flow.get(\"home.tasmotas\") == 'undefined') flow.set(\"home.tasmotas\", [])\n\n// Well... swapping [] for {} makes it, technically, an array...\n// Gotta figure out how to fill it in now...\n\nvar deviceID = msg.appId[1];         // get the sonoff device ID / MQTT prefix\n\nflow.set(DeviceGroup + \".\" + deviceID + \".Broker\", msg.Broker)\nflow.set(DeviceGroup + \".\" + deviceID + \".Device\", deviceID)\n\n// var DEVICE = flow.get(\"home.tasmotas\")\nvar DEVICE = {};\n\nvar Active = \"False\";\n\n// Probably need to put most of this here into a loop of some sort\n// and step through it to hunt for the deviceID...\n\n// DEVICE.Broker = msg.Broker\n// if (msg.payload == \"down\") {    // does trigger node say this device is down?\n//     // now check if it was previously down, if so, do nothing. if not,\n//     // record down_since datetime and set state to down\n//     if (DEVICE.state == \"up\") {\n//         DEVICE.state = \"down\"\n//         DEVICE.down_since_date = d\n//         DEVICE.down_since_time = t\n//     }\n// } else { // IT'S UP\n//     // Was it previously down? If so change the state\n//     if (DEVICE.state == \"down\") {\n//         DEVICE.state = \"up\"\n//         DEVICE.up_since_date = d\n//         DEVICE.up_since_time = t\n//         DEVICE.down_since_date = \"\"\n//         DEVICE.down_since_time = \"\"\n//     }\n//     // Either way, update the last seen date, device info, and sensor readings\n//     DEVICE.last_seen_date = d\n//     DEVICE.last_seen_time = t\n//     DEVICE.last_seen = new Date()\n// }\n\n// ////////////////////////////\n\n// if (msg.topic.split(\"/\")[2] == \"SENSOR\") {\n//     DEVICE.sensorReadings = msg.payload\n// }\n\n// if (msg.topic.split(\"/\")[2] == \"STATUS0\") {\n//     DEVICE.FriendlyName = msg.payload.Status.FriendlyName[0]\n//     DEVICE.IPAddress = msg.payload.StatusNET.IPAddress\n//     DEVICE.FWVersion = msg.payload.StatusFWR.Version\n//     DEVICE.HWVersion = msg.payload.StatusFWR.Hardware\n//     DEVICE.SSID = msg.payload.StatusSTS.Wifi.SSId\n//     DEVICE.GroupTopic = msg.payload.StatusPRM.GroupTopic \n// }\n///////////////////////////\n// if (msg.topic.split(\"/\")[2] == \"STATE\") {\n//     DEVICE.SSID = msg.payload.Wifi.SSId\n// }\n///////////////////////////\n\n//-------------------------------\nif (msg.topic.split(\"/\")[2] == \"DevInfo\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".GroupTopic\", msg.payload.GroupTopic)\n    flow.set(DeviceGroup + \".\" + deviceID + \".FriendlyName\", msg.payload.FriendlyName)\n    flow.set(DeviceGroup + \".\" + deviceID + \".FWVersion\", msg.payload.Version)\n    flow.set(DeviceGroup + \".\" + deviceID + \".HWVersion\", msg.payload.Hardware)\n    flow.set(DeviceGroup + \".\" + deviceID + \".IPAddress\", msg.payload.IPAddress)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifichannel\", msg.payload.WiFi.Channel)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifisignal\", msg.payload.WiFi.Signal)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifiSSID\", msg.payload.WiFi.SSID)\n    flow.set(DeviceGroup + \".\" + deviceID + \".SSID\", msg.payload.WiFi.SSID)\n    flow.set(DeviceGroup + \".\" + deviceID + \".Battery\", msg.payload.Battery)\n    flow.set(DeviceGroup + \".\" + deviceID + \".type\", \"Id\")\n}\n//-------------------------------\n\nif (msg.topic.split(\"/\")[2] != \"DevInfo\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".type\", \"TAZ\")\n}\n\nif (msg.topic.split(\"/\")[2] == \"STATUS\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".FriendlyName\", msg.payload.Status.FriendlyName[0])\n}\n///////////////////////////\nif (msg.topic.split(\"/\")[2] == \"STATUS1\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".GroupTopic\", msg.payload.StatusPRM.GroupTopic)\n}\n///////////////////////////\nif (msg.topic.split(\"/\")[2] == \"STATUS2\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".FWVersion\", msg.payload.StatusFWR.Version)\n    flow.set(DeviceGroup + \".\" + deviceID + \".HWVersion\", msg.payload.StatusFWR.Hardware)\n}\n///////////////////////////\nif (msg.topic.split(\"/\")[2] == \"STATUS5\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".IPAddress\", msg.payload.StatusNET.IPAddress)\n}\n///////////////////////////\nif (msg.topic.split(\"/\")[2] == \"STATUS11\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifisignal\", msg.payload.StatusSTS.Wifi.Signal)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifichannel\", msg.payload.StatusSTS.Wifi.Channel)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifiSSID\", msg.payload.StatusSTS.Wifi.SSId)\n    flow.set(DeviceGroup + \".\" + deviceID + \".SSID\", msg.payload.StatusSTS.Wifi.SSId)\n}\n///////////////////////////\nif (msg.topic.split(\"/\")[2] == \"STATE\") {\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifisignal\", msg.payload.Wifi.Signal)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifichannel\", msg.payload.Wifi.Channel)\n    flow.set(DeviceGroup + \".\" + deviceID + \".wifiSSID\", msg.payload.Wifi.SSId)\n    flow.set(DeviceGroup + \".\" + deviceID + \".SSID\", msg.payload.Wifi.SSId)\n    flow.set(DeviceGroup + \".\" + deviceID + \".deviceTime\", msg.payload.Time)\n}\n\n// else {  // device didn't exist\n//     // create object for first time\n// DEVICE = {\n//     FriendlyName: \"\",\n//     GroupTopic: \"\",\n//     created_date: d,\n//     created_time: t,\n//     state: \"up\",\n//     last_seen_date: d,\n//     last_seen_time: t,\n//     last_seen: new Date(),\n//     up_since_date: d,\n//     up_since_time: t,\n//     down_since_date: \"\",\n//     down_since_time: \"\"\n// }\n// }\n\n\nflow.set(DeviceGroup + \".\" + deviceID + \".created_date\", d)\nflow.set(DeviceGroup + \".\" + deviceID + \".created_time\", t)\nflow.set(DeviceGroup + \".\" + deviceID + \".state\", \"up\")\nflow.set(DeviceGroup + \".\" + deviceID + \".last_seen_date\", d)\nflow.set(DeviceGroup + \".\" + deviceID + \".last_seen_time\", t)\nflow.set(DeviceGroup + \".\" + deviceID + \".last_seen\", new Date())\nflow.set(DeviceGroup + \".\" + deviceID + \".up_since_date\", d)\nflow.set(DeviceGroup + \".\" + deviceID + \".up_since_time\", t)\nflow.set(DeviceGroup + \".\" + deviceID + \".down_since_date\", \"\")\nflow.set(DeviceGroup + \".\" + deviceID + \".down_since_time\", \"\")\n\n// msg.payload.TasmotaCount = TasmotaCount;\nmsg.payload.deviceID = deviceID;\nmsg.payload.DEVICE = DEVICE;\n\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 60,
+        "wires": [
+            [
+                "4ce1a4daf658e276"
+            ]
+        ]
+    },
+    {
+        "id": "e355dfc59b93d26d",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "link in 75",
+        "links": [
+            "f1760b4254b65e9f",
+            "98e23ae0abfa52a0"
+        ],
+        "x": 1275,
+        "y": 60,
+        "wires": [
+            [
+                "f1e206de0ed4f195",
+                "931beb2190092463"
+            ]
+        ]
+    },
+    {
+        "id": "8e31c13c39fdb4aa",
+        "type": "catch",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "",
+        "scope": [
+            "68bd4a0d40302452",
+            "9fe00e1d2a2970f1"
+        ],
+        "uncaught": false,
+        "x": 1850,
+        "y": 160,
+        "wires": [
+            [
+                "0b677aafbd1c4117"
+            ]
+        ]
+    },
+    {
+        "id": "0b677aafbd1c4117",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "debug 516",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8aa16c39370f34db",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "5 sec",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1590,
+        "y": 100,
+        "wires": [
+            [
+                "9fe00e1d2a2970f1"
+            ]
+        ],
+        "icon": "node-red/timer.svg"
+    },
+    {
+        "id": "9fe00e1d2a2970f1",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "Check if down",
+        "func": "// Upon reload or redeploy, let's go through all the devices and check if\n// they have not been seen in the last 65000ms, if so they are down and\n// we will update the objects in memory\n\n// Without this function, our objects will only show as down when there was\n// previously a message that ran through the trigger node, which then timed-out.\n// This doesn't cover the case where we redeployed and in the meantime\n// something went down\n\nvar IoTdevices = flow.get(\"IoTdevices\")\nvar d = new Date().toLocaleDateString();\nvar t = new Date().toLocaleTimeString();\n\nObject.keys(IoTdevices).forEach(Device => {\n    if (Date.now() - Date.parse(IoTdevices[Device].last_seen) > 65000) {\n        if (IoTdevices[Device].state == \"up\") {\n            IoTdevices[Device].state = \"down\"\n            IoTdevices[Device].down_since_date = d\n            IoTdevices[Device].down_since_time = t\n        }\n    }\n    msg.bork = [IoTdevices[Device].Device, IoTdevices[Device].state]\n}\n)\n\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 100,
+        "wires": [
+            [
+                "2f3162dd838c3872"
+            ]
+        ]
+    },
+    {
+        "id": "2f3162dd838c3872",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "debug 517",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "bork",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e5861f3a6c046a47",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "DevInfo",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3dbb1de161094b78",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "tele/+/LWT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "668db9725ed41f06",
+        "type": "ui_button",
+        "z": "800e55ff81b5378e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "brown",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 890,
+        "y": 500,
+        "wires": [
+            [
+                "18c3471f4a4c5113"
+            ]
+        ]
+    },
+    {
+        "id": "f4b6f8783ca93210",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "LOG - 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c8e2f1f1951b4bbf",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "MEM - 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5d42e41329e96308",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "MQT - 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0c427fae7fc94c6e",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "TIM - 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "55225be15df5c019",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "XXX - 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e65019f402100987",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "PTH - 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "57f3ed7f1d3358fb",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "SNS - 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f1e206de0ed4f195",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "debug 526",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4ce1a4daf658e276",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "debug 527",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "24dd80207246cf20",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "name": "Bork / Bork2 / Testing",
+        "info": "",
+        "x": 600,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "873ec73805726de7",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "name": "DaLab",
+        "info": "",
+        "x": 550,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "bfd5cfef2c3fbdcc",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "name": "LowerBasement / UpperBasement / GroundFloor / UpperFloor",
+        "info": "",
+        "x": 720,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "382782b60be93edc",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "IoTdevices",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DeviceGroup",
+                "pt": "msg",
+                "to": "IoTdevices",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1590,
+        "y": 60,
+        "wires": [
+            [
+                "68bd4a0d40302452"
+            ]
+        ]
+    },
+    {
+        "id": "931beb2190092463",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "ba5045cf2f034325",
+        "name": "Get GroupTopics",
+        "func": "if (msg.topic.split(\"/\")[2] == \"DevInfo\") {\n    msg.GroupTopic = msg.payload.GroupTopic\n}\nif (msg.topic.split(\"/\")[2] == \"STATUS1\") {\n    msg.GroupTopic = msg.payload.StatusPRM.GroupTopic\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 60,
+        "wires": [
+            [
+                "382782b60be93edc"
+            ]
+        ]
+    },
+    {
+        "id": "20609b1e1f7686a6",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 555",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "a504521b49b59771",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "IoTDevicesA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "IoTDevicesA",
+        "payloadType": "flow",
+        "x": 110,
+        "y": 920,
+        "wires": [
+            [
+                "20609b1e1f7686a6"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "8cb359df7cf2fcd7",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 556",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "5539caf115f164c8",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "IoTCount",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "IoTCount",
+        "payloadType": "flow",
+        "x": 100,
+        "y": 960,
+        "wires": [
+            [
+                "8cb359df7cf2fcd7"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "a21880a5e08dfa9a",
+        "type": "switch",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "",
+        "property": "IoTdevices.GroupTopic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Bork",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Bork2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Testing",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "DaLab",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "LowerBasement",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "UpperBasement",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "GroundFloor",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "UpperFloor",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 8,
+        "x": 1230,
+        "y": 520,
+        "wires": [
+            [
+                "1704e374c5e0a9ea"
+            ],
+            [
+                "1704e374c5e0a9ea"
+            ],
+            [
+                "1704e374c5e0a9ea"
+            ],
+            [
+                "e5902d68e72147a8"
+            ],
+            [
+                "d1a4f5bd8929b05f"
+            ],
+            [
+                "d1a4f5bd8929b05f"
+            ],
+            [
+                "d1a4f5bd8929b05f"
+            ],
+            [
+                "d1a4f5bd8929b05f"
+            ]
+        ]
+    },
+    {
+        "id": "1704e374c5e0a9ea",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "Experimental",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DeviceGroup",
+                "pt": "msg",
+                "to": "ExperimentalDevices",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1390,
+        "y": 480,
+        "wires": [
+            [
+                "95cd9d38e4271616"
+            ]
+        ]
+    },
+    {
+        "id": "e5902d68e72147a8",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "LabGear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DeviceGroup",
+                "pt": "msg",
+                "to": "LabGearDevices",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1380,
+        "y": 520,
+        "wires": [
+            [
+                "29f430eba345d742"
+            ]
+        ]
+    },
+    {
+        "id": "d1a4f5bd8929b05f",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "Production",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DeviceGroup",
+                "pt": "msg",
+                "to": "ProductionDevices",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1390,
+        "y": 560,
+        "wires": [
+            [
+                "0b06c2ef150ee960"
+            ]
+        ]
+    },
+    {
+        "id": "eaefb9936ec27f67",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "10 sec",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1340,
+        "y": 260,
+        "wires": [
+            [
+                "b833e92015dc01da"
+            ]
+        ],
+        "icon": "node-red/timer.svg"
+    },
+    {
+        "id": "56255ea1db1aa945",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "debug 563",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "IoTdevices",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aea730a909b43696",
+        "type": "split",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "IoTdevices",
+        "x": 1710,
+        "y": 320,
+        "wires": [
+            [
+                "7cf9e4d81124e981"
+            ]
+        ]
+    },
+    {
+        "id": "29a1edcfa635a3fc",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "create Arrays",
+        "func": "// var WTF = 0;\nflow.set(\"IoTCount\", 0);\n\n// msg.BARF = [];\n\nif (typeof flow.get(\"IoTDevicesA\") == 'undefined') flow.set(\"IoTDevicesA\", [])\n\n///////////////////////////////\nflow.set(\"ProdCount\", 0);\nif (typeof flow.get(\"ProdDevicesA\") == 'undefined') flow.set(\"ProdDevicesA\", [])\n\nflow.set(\"TestCount\", 0);\nif (typeof flow.get(\"TestDevicesA\") == 'undefined') flow.set(\"TestDevicesA\", [])\n\nflow.set(\"LabCount\", 0);\nif (typeof flow.get(\"LabDevicesA\") == 'undefined') flow.set(\"LabDevicesA\", [])\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1550,
+        "y": 320,
+        "wires": [
+            [
+                "aea730a909b43696"
+            ]
+        ]
+    },
+    {
+        "id": "7f72cb1fc4d065ab",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "debug 565",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1970,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "7cf9e4d81124e981",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IoTdevices.Device",
+                "pt": "msg",
+                "to": "msg.parts.key",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1900,
+        "y": 320,
+        "wires": [
+            [
+                "7f72cb1fc4d065ab",
+                "86057feec8016f5c"
+            ]
+        ]
+    },
+    {
+        "id": "0f0f7e30cb48eb60",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "debug 568",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "IoTdevices.Device",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cc0ee9285fc480e2",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "debug 569",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "IoTdevices.Device",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3c669b2a775f8a2e",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "debug 570",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "IoTdevices.Device",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "98e23ae0abfa52a0",
+        "type": "link out",
+        "z": "800e55ff81b5378e",
+        "g": "8763e1568cf1e0af",
+        "name": "Original",
+        "mode": "link",
+        "links": [
+            "e355dfc59b93d26d"
+        ],
+        "x": 965,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a2b15528fdbdc349",
+        "type": "ui_template",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "group": "9c3f1a0c216f8b39",
+        "name": "IoT Device Status",
+        "order": 1,
+        "width": "20",
+        "height": "22",
+        "format": "<style>\n    a:visited {\n        color: #8cd3d6;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n        min-height: 5px;\n    }\n\n</style>\n\n<h1>IoT Device Status [{{msg.Count}} devices]</h1>\n<!--<div ng-if=\"msg.Notify !=== 'undefined'\">Oh no, empty</div>-->\n\n<table>\n    <tr style=\"font-weight:800; background-color:rgba(20,20,20,.6);\">\n        <td>Group</td>\n        <td>&nbsp;&nbsp;</td>\n        <td>MQTT Topic</td>\n        <td>Friendly Name</td>\n        <td>State</td>\n        <td>Since</td>\n        <td>Ch</td>\n        <td>Sig</td>\n        <td>SSID</td>\n        <td>Broker</td>\n        <td></td>\n        <td>FW / HW</td>\n        <td>IP</td>\n    </tr>\n    <tr ng-repeat=\"(key, value) in msg.payload\">\n        <td>{{value.GroupTopic}}</td>\n        <td></td>\n        <!-- <td>{{key}}</td> -->\n        <td>{{value.Device}}</td>\n        <td><a href=\"http://{{value.IPAddress}}\" target=\"_blank\">{{value.FriendlyName}}</a></td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:green; font-weight:600\">&#10003;</span>\n            UP\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:red; font-weight:600\">&#10007;</span>\n            DN\n        </td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.up_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.up_since_date}}</span>\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.down_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.down_since_date}}</span>\n        </td>\n        <td>{{value.wifichannel}}</td>\n\n        <!-- signal colours -->\n        <td>\n            <span ng-if=\"value.wifisignal > -65\" style=\"color:green\">{{value.wifisignal}}</span>\n            <span ng-if=\"value.wifisignal < -64 && value.wifisignal > -71\" style=\"color:orange\">\n                {{value.wifisignal}}\n            </span>\n            <span ng-if=\"value.wifisignal < -70\" style=\"color:red\">{{value.wifisignal}}</span>\n        </td>\n        <td>{{value.SSID}}</td>\n        <td>{{value.Broker}}</td>\n        <td>{{value.type}}</td>\n        <td>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.FWVersion}}</span>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.HWVersion}}</span>\n        </td>\n        <td>{{value.IPAddress}}</td>\n        \n        <td ng-if=\"value.state === 'up'\">&numsp;&numsp;&numsp;</td>\n        <td ng-if=\"value.state === 'down'\">\n            <!-- <md-button ng-click=\"send({action: 'delete', device: key})\">Del</md-button> -->\n            <md-button style=\"background-color:black\" ng-click=\"send({action: 'delete', device: key})\">&#128465;\n            </md-button>\n        </td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 700,
+        "wires": [
+            [
+                "02d1425d25eb3a92",
+                "213d1e2f6de8dbcd"
+            ]
+        ]
+    },
+    {
+        "id": "02d1425d25eb3a92",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "debug 518",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "213d1e2f6de8dbcd",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "d": true,
+        "g": "ea04aab72d50bda9",
+        "name": "DESTROY!",
+        "func": "var Record = \"home.tasmotas.\" + msg.device;\n\nflow.set(Record, undefined);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 740,
+        "wires": [
+            [
+                "6841b89f9d493012"
+            ]
+        ]
+    },
+    {
+        "id": "c6027a6ba7da5f4c",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "FLOW.IoTDevicesA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "IoTDevicesA",
+                "tot": "flow",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "Count",
+                "pt": "msg",
+                "to": "IoTCount",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 700,
+        "wires": [
+            [
+                "f1470bbc03ee8507",
+                "a57e184b3d41d759",
+                "dacc140467069218"
+            ]
+        ]
+    },
+    {
+        "id": "dacc140467069218",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "Sort - Group/Device",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload^(GroupTopic,Device)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 700,
+        "wires": [
+            [
+                "a2b15528fdbdc349",
+                "a363ad5bac5a3694"
+            ]
+        ]
+    },
+    {
+        "id": "a363ad5bac5a3694",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "Sorted",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6841b89f9d493012",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "debug 519",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f1470bbc03ee8507",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "Count",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "Count",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 250,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "58414fea32671a70",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "Needs fixing -->",
+        "info": "This used to work in the original...\nDoesn't work now...\n\nHhhmmm...",
+        "x": 500,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "a57e184b3d41d759",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "Devices",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 240,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b0589e5e121d4c8d",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "link in 77",
+        "links": [
+            "86057feec8016f5c"
+        ],
+        "x": 1145,
+        "y": 520,
+        "wires": [
+            [
+                "a21880a5e08dfa9a"
+            ]
+        ]
+    },
+    {
+        "id": "0b06c2ef150ee960",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "Build \"Production\" Group",
+        "func": "var WTF = flow.get(\"ProdCount\");\n\nvar FFFUUU = flow.get(\"ProdDevicesA\");\nFFFUUU[WTF] = msg.IoTdevices;\nflow.set(\"ProdDevicesA\", FFFUUU);\n\nWTF++;\nflow.set(\"ProdCount\", WTF);\nmsg.WTF = WTF;\nmsg.FFFUUU = FFFUUU;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 560,
+        "wires": [
+            [
+                "3c669b2a775f8a2e"
+            ]
+        ]
+    },
+    {
+        "id": "29f430eba345d742",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "Build \"Lab\" Group",
+        "func": "var WTF = flow.get(\"LabCount\");\n\nvar FFFUUU = flow.get(\"LabDevicesA\");\nFFFUUU[WTF] = msg.IoTdevices;\nflow.set(\"LabDevicesA\", FFFUUU);\n\nWTF++;\nflow.set(\"LabCount\", WTF);\nmsg.WTF = WTF;\nmsg.FFFUUU = FFFUUU;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 520,
+        "wires": [
+            [
+                "cc0ee9285fc480e2"
+            ]
+        ]
+    },
+    {
+        "id": "95cd9d38e4271616",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "Build \"Experimental\" Group",
+        "func": "var WTF = flow.get(\"TestCount\");\n\nvar FFFUUU = flow.get(\"TestDevicesA\");\nFFFUUU[WTF] = msg.IoTdevices;\nflow.set(\"TestDevicesA\", FFFUUU);\n\nWTF++;\nflow.set(\"TestCount\", WTF);\nmsg.WTF = WTF;\nmsg.FFFUUU = FFFUUU;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 480,
+        "wires": [
+            [
+                "0f0f7e30cb48eb60"
+            ]
+        ]
+    },
+    {
+        "id": "942e9ef877f91564",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 573",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c4a41112c2e66e70",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "TestDevicesA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "TestDevicesA",
+        "payloadType": "flow",
+        "x": 590,
+        "y": 860,
+        "wires": [
+            [
+                "942e9ef877f91564"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "221be4190a5f1a89",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 574",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "b74ad1c1937b634d",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "TestCount",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "TestCount",
+        "payloadType": "flow",
+        "x": 580,
+        "y": 900,
+        "wires": [
+            [
+                "221be4190a5f1a89"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "c3d1d909b2efee0c",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 575",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "a9ab635bd0d46dfc",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "LabDevicesA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LabDevicesA",
+        "payloadType": "flow",
+        "x": 590,
+        "y": 1000,
+        "wires": [
+            [
+                "c3d1d909b2efee0c"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "789786f45eb3220e",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 576",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "216c5b7fecc918b6",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "LabCount",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LabCount",
+        "payloadType": "flow",
+        "x": 580,
+        "y": 1040,
+        "wires": [
+            [
+                "789786f45eb3220e"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "70d35b327e4f3464",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 577",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8460cb794097905e",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "ProdDevicesA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ProdDevicesA",
+        "payloadType": "flow",
+        "x": 590,
+        "y": 1140,
+        "wires": [
+            [
+                "70d35b327e4f3464"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "e784399bf66eb1c6",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 578",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "1c89f70da45672cc",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "ProdCount",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ProdCount",
+        "payloadType": "flow",
+        "x": 580,
+        "y": 1180,
+        "wires": [
+            [
+                "e784399bf66eb1c6"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "010d131944ea2ab8",
+        "type": "ui_template",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "group": "6de2a7cb65a55bbe",
+        "name": "Production Device Status",
+        "order": 2,
+        "width": "20",
+        "height": "7",
+        "format": "<style>\n    a:visited {\n        color: #8cd3d6;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n        min-height: 5px;\n    }\n\n</style>\n\n<h2>Production Device Status [{{msg.Count}} devices]</h2>\n<!--<div ng-if=\"msg.Notify !=== 'undefined'\">Oh no, empty</div>-->\n\n<table>\n    <tr style=\"font-weight:800; background-color:rgba(20,20,20,.6);\">\n        <td>Group</td>\n        <td>&nbsp;&nbsp;</td>\n        <td>MQTT Topic</td>\n        <td>Friendly Name</td>\n        <td>State</td>\n        <td>Since</td>\n        <td>Ch</td>\n        <td>Sig</td>\n        <td>SSID</td>\n        <td>Broker</td>\n        <td></td>\n        <td>FW / HW</td>\n        <td>IP</td>\n    </tr>\n    <tr ng-repeat=\"(key, value) in msg.payload\">\n        <td>{{value.GroupTopic}}</td>\n        <td></td>\n        <!-- <td>{{key}}</td> -->\n        <td>{{value.Device}}</td>\n        <td><a href=\"http://{{value.IPAddress}}\" target=\"_blank\">{{value.FriendlyName}}</a></td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:green; font-weight:600\">&#10003;</span>\n            UP\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:red; font-weight:600\">&#10007;</span>\n            DN\n        </td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.up_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.up_since_date}}</span>\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.down_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.down_since_date}}</span>\n        </td>\n        <td>{{value.wifichannel}}</td>\n\n        <!-- signal colours -->\n        <td>\n            <span ng-if=\"value.wifisignal > -65\" style=\"color:green\">{{value.wifisignal}}</span>\n            <span ng-if=\"value.wifisignal < -64 && value.wifisignal > -71\" style=\"color:orange\">\n                {{value.wifisignal}}\n            </span>\n            <span ng-if=\"value.wifisignal < -70\" style=\"color:red\">{{value.wifisignal}}</span>\n        </td>\n        <td>{{value.SSID}}</td>\n        <td>{{value.Broker}}</td>\n        <td>{{value.type}}</td>\n        <td>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.FWVersion}}</span>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.HWVersion}}</span>\n        </td>\n        <td>{{value.IPAddress}}</td>\n\n        <td ng-if=\"value.state === 'up'\">&numsp;&numsp;&numsp;</td>\n        <td ng-if=\"value.state === 'down'\">\n            <!-- <md-button ng-click=\"send({action: 'delete', device: key})\">Del</md-button> -->\n            <md-button style=\"background-color:black\" ng-click=\"send({action: 'delete', device: key})\">&#128465;\n            </md-button>\n        </td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1790,
+        "y": 700,
+        "wires": [
+            [
+                "e2951c65428f135e",
+                "d53407f0878e4ecb"
+            ]
+        ]
+    },
+    {
+        "id": "e2951c65428f135e",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "debug 582",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "d53407f0878e4ecb",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "d": true,
+        "g": "6b869e6d07ccd440",
+        "name": "DESTROY!",
+        "func": "var Record = \"home.tasmotas.\" + msg.device;\n\nflow.set(Record, undefined);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1770,
+        "y": 740,
+        "wires": [
+            [
+                "7ef42934afdd4c22"
+            ]
+        ]
+    },
+    {
+        "id": "5c4bbdf45063485a",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "FLOW.IoTDevicesA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ProdDevicesA",
+                "tot": "flow",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "Count",
+                "pt": "msg",
+                "to": "ProdCount",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 700,
+        "wires": [
+            [
+                "86f25741693713d7",
+                "7364208776a122de",
+                "04e26fb90cb8920a"
+            ]
+        ]
+    },
+    {
+        "id": "04e26fb90cb8920a",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "Sort - Group/Device",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload^(GroupTopic,Device)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 700,
+        "wires": [
+            [
+                "010d131944ea2ab8",
+                "6726f8ee35e86b62"
+            ]
+        ]
+    },
+    {
+        "id": "6726f8ee35e86b62",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "Sorted",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "7ef42934afdd4c22",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "debug 583",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "86f25741693713d7",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "Count",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "Count",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "f68966758906e099",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "Needs fixing -->",
+        "info": "This used to work in the original...\nDoesn't work now...\n\nHhhmmm...",
+        "x": 1600,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7364208776a122de",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "Devices",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "a2c1388aeceebc4c",
+        "type": "ui_template",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "group": "6de2a7cb65a55bbe",
+        "name": "Lab Device Status",
+        "order": 3,
+        "width": "20",
+        "height": "7",
+        "format": "<style>\n    a:visited {\n        color: #8cd3d6;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n        min-height: 5px;\n    }\n\n</style>\n\n<h2>Lab Device Status [{{msg.Count}} devices]</h2>\n<!--<div ng-if=\"msg.Notify !=== 'undefined'\">Oh no, empty</div>-->\n\n<table>\n    <tr style=\"font-weight:800; background-color:rgba(20,20,20,.6);\">\n        <td>Group</td>\n        <td>&nbsp;&nbsp;</td>\n        <td>MQTT Topic</td>\n        <td>Friendly Name</td>\n        <td>State</td>\n        <td>Since</td>\n        <td>Ch</td>\n        <td>Sig</td>\n        <td>SSID</td>\n        <td>Broker</td>\n        <td></td>\n        <td>FW / HW</td>\n        <td>IP</td>\n    </tr>\n    <tr ng-repeat=\"(key, value) in msg.payload\">\n        <td>{{value.GroupTopic}}</td>\n        <td></td>\n        <!-- <td>{{key}}</td> -->\n        <td>{{value.Device}}</td>\n        <td><a href=\"http://{{value.IPAddress}}\" target=\"_blank\">{{value.FriendlyName}}</a></td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:green; font-weight:600\">&#10003;</span>\n            UP\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:red; font-weight:600\">&#10007;</span>\n            DN\n        </td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.up_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.up_since_date}}</span>\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.down_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.down_since_date}}</span>\n        </td>\n        <td>{{value.wifichannel}}</td>\n\n        <!-- signal colours -->\n        <td>\n            <span ng-if=\"value.wifisignal > -65\" style=\"color:green\">{{value.wifisignal}}</span>\n            <span ng-if=\"value.wifisignal < -64 && value.wifisignal > -71\" style=\"color:orange\">\n                {{value.wifisignal}}\n            </span>\n            <span ng-if=\"value.wifisignal < -70\" style=\"color:red\">{{value.wifisignal}}</span>\n        </td>\n        <td>{{value.SSID}}</td>\n        <td>{{value.Broker}}</td>\n        <td>{{value.type}}</td>\n        <td>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.FWVersion}}</span>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.HWVersion}}</span>\n        </td>\n        <td>{{value.IPAddress}}</td>\n\n        <td ng-if=\"value.state === 'up'\">&numsp;&numsp;&numsp;</td>\n        <td ng-if=\"value.state === 'down'\">\n            <!-- <md-button ng-click=\"send({action: 'delete', device: key})\">Del</md-button> -->\n            <md-button style=\"background-color:black\" ng-click=\"send({action: 'delete', device: key})\">&#128465;\n            </md-button>\n        </td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1770,
+        "y": 880,
+        "wires": [
+            [
+                "13681bfb4ec478cf",
+                "4b895b2c95beacf7"
+            ]
+        ]
+    },
+    {
+        "id": "13681bfb4ec478cf",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "debug 585",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "4b895b2c95beacf7",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "d": true,
+        "g": "ec023c4dcbbce0bb",
+        "name": "DESTROY!",
+        "func": "var Record = \"home.tasmotas.\" + msg.device;\n\nflow.set(Record, undefined);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 920,
+        "wires": [
+            [
+                "7c28c822e42b3b7e"
+            ]
+        ]
+    },
+    {
+        "id": "d5115e821e8e2c5a",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "FLOW.LabDevicesA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "LabDevicesA",
+                "tot": "flow",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "Count",
+                "pt": "msg",
+                "to": "LabCount",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 880,
+        "wires": [
+            [
+                "5996ee7aaf936ef7",
+                "5c71e2b8e50a96c1",
+                "03d4034e27a5800a"
+            ]
+        ]
+    },
+    {
+        "id": "03d4034e27a5800a",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "Sort - Group/Device",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload^(GroupTopic,Device)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 880,
+        "wires": [
+            [
+                "a2c1388aeceebc4c",
+                "fd0bafb6d8b0c12c"
+            ]
+        ]
+    },
+    {
+        "id": "fd0bafb6d8b0c12c",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "Sorted",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "7c28c822e42b3b7e",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "debug 586",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "5996ee7aaf936ef7",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "Count",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "Count",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "268d7ce2dfc6d39a",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "Needs fixing -->",
+        "info": "This used to work in the original...\nDoesn't work now...\n\nHhhmmm...",
+        "x": 1620,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "5c71e2b8e50a96c1",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "Devices",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "ace47d0b20fa2259",
+        "type": "ui_template",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "group": "6de2a7cb65a55bbe",
+        "name": "Test Device Status",
+        "order": 4,
+        "width": "20",
+        "height": "12",
+        "format": "<style>\n    a:visited {\n        color: #8cd3d6;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n        min-height: 5px;\n    }\n\n</style>\n\n<h2>Test Device Status [{{msg.Count}} devices]</h2>\n<!--<div ng-if=\"msg.Notify !=== 'undefined'\">Oh no, empty</div>-->\n\n<table>\n    <tr style=\"font-weight:800; background-color:rgba(20,20,20,.6);\">\n        <td>Group</td>\n        <td>&nbsp;&nbsp;</td>\n        <td>MQTT Topic</td>\n        <td>Friendly Name</td>\n        <td>State</td>\n        <td>Since</td>\n        <td>Ch</td>\n        <td>Sig</td>\n        <td>SSID</td>\n        <td>Broker</td>\n        <td></td>\n        <td>FW / HW</td>\n        <td>IP</td>\n    </tr>\n    <tr ng-repeat=\"(key, value) in msg.payload\">\n        <td>{{value.GroupTopic}}</td>\n        <td></td>\n        <!-- <td>{{key}}</td> -->\n        <td>{{value.Device}}</td>\n        <td><a href=\"http://{{value.IPAddress}}\" target=\"_blank\">{{value.FriendlyName}}</a></td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:green; font-weight:600\">&#10003;</span>\n            UP\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:red; font-weight:600\">&#10007;</span>\n            DN\n        </td>\n        <td ng-if=\"value.state === 'up'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.up_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.up_since_date}}</span>\n        </td>\n        <td ng-if=\"value.state === 'down'\">\n            <span style=\"color:#888; font-size:10px; display:block;\">{{value.down_since_time}}</span>\n            <span style=\"color:#888; font-size:10px;display:block;\"> {{value.down_since_date}}</span>\n        </td>\n        <td>{{value.wifichannel}}</td>\n\n        <!-- signal colours -->\n        <td>\n            <span ng-if=\"value.wifisignal > -65\" style=\"color:green\">{{value.wifisignal}}</span>\n            <span ng-if=\"value.wifisignal < -64 && value.wifisignal > -71\" style=\"color:orange\">\n                {{value.wifisignal}}\n            </span>\n            <span ng-if=\"value.wifisignal < -70\" style=\"color:red\">{{value.wifisignal}}</span>\n        </td>\n        <td>{{value.SSID}}</td>\n        <td>{{value.Broker}}</td>\n        <td>{{value.type}}</td>\n        <td>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.FWVersion}}</span>\n            <span style=\"color:#888;font-size:10px;display:block;\">{{value.HWVersion}}</span>\n        </td>\n        <td>{{value.IPAddress}}</td>\n\n        <td ng-if=\"value.state === 'up'\">&numsp;&numsp;&numsp;</td>\n        <td ng-if=\"value.state === 'down'\">\n            <!-- <md-button ng-click=\"send({action: 'delete', device: key})\">Del</md-button> -->\n            <md-button style=\"background-color:black\" ng-click=\"send({action: 'delete', device: key})\">&#128465;\n            </md-button>\n        </td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1770,
+        "y": 1060,
+        "wires": [
+            [
+                "d89270090f29d149",
+                "aab56e5cd0f74f5e"
+            ]
+        ]
+    },
+    {
+        "id": "d89270090f29d149",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "debug 588",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "aab56e5cd0f74f5e",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "d": true,
+        "g": "8de10e0d0466125d",
+        "name": "DESTROY!",
+        "func": "var Record = \"home.tasmotas.\" + msg.device;\n\nflow.set(Record, undefined);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 1100,
+        "wires": [
+            [
+                "77fb98da04c7c216"
+            ]
+        ]
+    },
+    {
+        "id": "fe724844267761aa",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "FLOW.TestDevicesA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TestDevicesA",
+                "tot": "flow",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "Count",
+                "pt": "msg",
+                "to": "TestCount",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 1060,
+        "wires": [
+            [
+                "cda265f8aacc52cf",
+                "7e1edd82b28928f4",
+                "056e923da0758b33"
+            ]
+        ]
+    },
+    {
+        "id": "056e923da0758b33",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "Sort - Group/Device",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload^(GroupTopic,Device)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 1060,
+        "wires": [
+            [
+                "ace47d0b20fa2259",
+                "85e58d34c3af3cba"
+            ]
+        ]
+    },
+    {
+        "id": "85e58d34c3af3cba",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "Sorted",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "77fb98da04c7c216",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "debug 589",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "cda265f8aacc52cf",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "Count",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "Count",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "fc73626216ae29a0",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "Needs fixing -->",
+        "info": "This used to work in the original...\nDoesn't work now...\n\nHhhmmm...",
+        "x": 1620,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "7e1edd82b28928f4",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "Devices",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "7178c34cc5f3439b",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 770,
+        "y": 460,
+        "wires": [
+            [
+                "18e1d7fa13feadaa"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "18e1d7fa13feadaa",
+        "type": "ui_button",
+        "z": "800e55ff81b5378e",
+        "name": "",
+        "group": "a1392d0c9c4d90a6",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "brown",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 890,
+        "y": 460,
+        "wires": [
+            [
+                "18c3471f4a4c5113"
+            ]
+        ]
+    },
+    {
+        "id": "18c3471f4a4c5113",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "name": "Wipe",
+        "func": "var keys = flow.keys();\nfor (var i = 0; i < keys.length; i++) {\n    flow.set(keys[i], undefined);\n}   ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19b68a98c64cb31a",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "count",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "48023276e03e2c38"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "81def9cd3b0dabed",
+        "type": "ui_button",
+        "z": "800e55ff81b5378e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 890,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "197a7b0da8278346",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "ea04aab72d50bda9",
+        "name": "link in 78",
+        "links": [
+            "82fc203cd4928e06"
+        ],
+        "x": 55,
+        "y": 700,
+        "wires": [
+            [
+                "c6027a6ba7da5f4c"
+            ]
+        ]
+    },
+    {
+        "id": "2897154c3eb30b98",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "6b869e6d07ccd440",
+        "name": "link in 79",
+        "links": [
+            "82fc203cd4928e06"
+        ],
+        "x": 1145,
+        "y": 700,
+        "wires": [
+            [
+                "5c4bbdf45063485a"
+            ]
+        ]
+    },
+    {
+        "id": "03e290050749d720",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "ec023c4dcbbce0bb",
+        "name": "link in 80",
+        "links": [
+            "82fc203cd4928e06"
+        ],
+        "x": 1145,
+        "y": 880,
+        "wires": [
+            [
+                "d5115e821e8e2c5a"
+            ]
+        ]
+    },
+    {
+        "id": "457f782d8179df98",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "8de10e0d0466125d",
+        "name": "link in 81",
+        "links": [
+            "82fc203cd4928e06"
+        ],
+        "x": 1145,
+        "y": 1060,
+        "wires": [
+            [
+                "fe724844267761aa"
+            ]
+        ]
+    },
+    {
+        "id": "6401cd1dc99b38dc",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "boo",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1330,
+        "y": 300,
+        "wires": [
+            [
+                "b833e92015dc01da"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "12d5b23120afd8e1",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "e9d73aa0fa31e45c",
+        "name": "debug 564",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "c83e2cdaebe846c1",
+        "type": "function",
+        "z": "800e55ff81b5378e",
+        "g": "e9d73aa0fa31e45c",
+        "name": "Build \"Bulk\" Group",
+        "func": "var WTF = flow.get(\"IoTCount\");\n\nvar FFFUUU = flow.get(\"IoTDevicesA\");\nFFFUUU[WTF] = msg.IoTdevices;\nflow.set(\"IoTDevicesA\", FFFUUU);\n\nWTF++;\nflow.set(\"IoTCount\", WTF);\nmsg.WTF = WTF;\nmsg.FFFUUU = FFFUUU;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "12d5b23120afd8e1",
+                "ff93b792dd9f7b09",
+                "b1d3c85a21e1d5cc"
+            ]
+        ]
+    },
+    {
+        "id": "ff93b792dd9f7b09",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "e9d73aa0fa31e45c",
+        "name": "debug 566",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "WTF",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "b1d3c85a21e1d5cc",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "g": "e9d73aa0fa31e45c",
+        "name": "debug 567",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "FFFUUU",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "ae93e0247e0ded12",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "g": "e9d73aa0fa31e45c",
+        "name": "link in 82",
+        "links": [
+            "86057feec8016f5c"
+        ],
+        "x": 55,
+        "y": 520,
+        "wires": [
+            [
+                "c83e2cdaebe846c1"
+            ]
+        ]
+    },
+    {
+        "id": "48023276e03e2c38",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "name": "IoTCount",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "IoTCount",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 580,
+        "wires": [
+            [
+                "81def9cd3b0dabed"
+            ]
+        ]
+    },
+    {
+        "id": "86057feec8016f5c",
+        "type": "link out",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "Trigger Array Group Builds",
+        "mode": "link",
+        "links": [
+            "ae93e0247e0ded12",
+            "b0589e5e121d4c8d"
+        ],
+        "x": 1960,
+        "y": 380,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "f833c5a7d9112cf1",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "boo",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1750,
+        "y": 380,
+        "wires": [
+            [
+                "86057feec8016f5c"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "534c74dcaab64c9c",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "g": "917daaaec20f25f2",
+        "name": "You'll need to edit these nodes",
+        "info": "And probably edit all of the appropriate group names from here down...",
+        "x": 1580,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "82fc203cd4928e06",
+        "type": "link out",
+        "z": "800e55ff81b5378e",
+        "name": "Trigger table display",
+        "mode": "link",
+        "links": [
+            "03e290050749d720",
+            "197a7b0da8278346",
+            "2897154c3eb30b98",
+            "457f782d8179df98",
+            "6ae4d58c3e40a903"
+        ],
+        "x": 940,
+        "y": 540,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "9fe8383a21417595",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "1 sec",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 770,
+        "y": 540,
+        "wires": [
+            [
+                "82fc203cd4928e06"
+            ]
+        ],
+        "icon": "node-red/timer.svg"
+    },
+    {
+        "id": "b833e92015dc01da",
+        "type": "change",
+        "z": "800e55ff81b5378e",
+        "g": "c8558ddf0fdcaa29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IoTdevices",
+                "pt": "msg",
+                "to": "IoTdevices",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1530,
+        "y": 280,
+        "wires": [
+            [
+                "29a1edcfa635a3fc",
+                "56255ea1db1aa945"
+            ]
+        ]
+    },
+    {
+        "id": "9accd5bb66bc3ffb",
+        "type": "inject",
+        "z": "800e55ff81b5378e",
+        "name": "IoTdevices",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "IoTdevices",
+        "payloadType": "flow",
+        "x": 100,
+        "y": 820,
+        "wires": [
+            [
+                "066c25091abbc467"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg"
+    },
+    {
+        "id": "066c25091abbc467",
+        "type": "debug",
+        "z": "800e55ff81b5378e",
+        "name": "debug 592",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "0b81691c7003236f",
+        "type": "comment",
+        "z": "800e55ff81b5378e",
+        "name": "BULK (all devices)",
+        "info": "",
+        "x": 110,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "6ae4d58c3e40a903",
+        "type": "link in",
+        "z": "800e55ff81b5378e",
+        "name": "link in 85",
+        "links": [
+            "82fc203cd4928e06"
+        ],
+        "x": 665,
+        "y": 580,
+        "wires": [
+            [
+                "48023276e03e2c38"
+            ]
+        ]
+    },
+    {
+        "id": "d3da52ca9a787511",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto0",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3cfa1fac61dca0ec",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dccc3b5ab802f58f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto2",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "542e9a8a.0d3104",
+        "type": "mqtt-broker",
+        "name": "SkyNet",
+        "broker": "skynet.tinkernet.ca",
+        "port": "1883",
+        "clientid": "NodeRed1",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c153f7f9b21a8743",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "0f93a9f7b46e6243",
+        "order": 2,
+        "disp": false,
+        "width": "2",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9c3f1a0c216f8b39",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "2808f98eb96e4c44",
+        "order": 1,
+        "disp": false,
+        "width": "21",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6de2a7cb65a55bbe",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "0f93a9f7b46e6243",
+        "order": 1,
+        "disp": false,
+        "width": "21",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a1392d0c9c4d90a6",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "2808f98eb96e4c44",
+        "order": 2,
+        "disp": false,
+        "width": "2",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0f93a9f7b46e6243",
+        "type": "ui_tab",
+        "name": "Device Detection (groups)",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2808f98eb96e4c44",
+        "type": "ui_tab",
+        "name": "Device Detection (lumped)",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

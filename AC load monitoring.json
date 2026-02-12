@@ -1,0 +1,1472 @@
+[
+    {
+        "id": "4daefb4a56e356ea",
+        "type": "tab",
+        "label": "AC load monitoring",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4e85ac9d3af43bbf",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 800,
+        "y": 240,
+        "wires": [
+            [
+                "11d298699d79dabf",
+                "5167c119daba9375"
+            ]
+        ]
+    },
+    {
+        "id": "6a45000e1d863751",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1040,
+        "y": 200,
+        "wires": [
+            [
+                "17e6420eb6ea92c7"
+            ]
+        ]
+    },
+    {
+        "id": "3130d3adc1671447",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1040,
+        "y": 320,
+        "wires": [
+            [
+                "c26e7653b60f5863"
+            ]
+        ]
+    },
+    {
+        "id": "fa8de4036551b66f",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1380,
+        "y": 160,
+        "wires": [
+            [
+                "9929af4a9307386a"
+            ]
+        ]
+    },
+    {
+        "id": "2354902fdc10b4f5",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1380,
+        "y": 280,
+        "wires": [
+            [
+                "5c56fa2c822cbdd2"
+            ]
+        ]
+    },
+    {
+        "id": "17e6420eb6ea92c7",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1340,
+        "y": 200,
+        "wires": [
+            [
+                "889d57f12aeb3435",
+                "25bde835c974cfe8"
+            ]
+        ]
+    },
+    {
+        "id": "c26e7653b60f5863",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1340,
+        "y": 320,
+        "wires": [
+            [
+                "fb4c2a2c4ab40e7d",
+                "f784f8957f058d76"
+            ]
+        ]
+    },
+    {
+        "id": "7a847cb0fde32e2e",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 800,
+        "y": 660,
+        "wires": [
+            [
+                "8db4d1c005830338",
+                "fe10c89bf6af1f0a"
+            ]
+        ]
+    },
+    {
+        "id": "f6d0439add8262cc",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1040,
+        "y": 620,
+        "wires": [
+            [
+                "29073f951db9ddd7"
+            ]
+        ]
+    },
+    {
+        "id": "13bd1f3495870408",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1040,
+        "y": 740,
+        "wires": [
+            [
+                "4c934b510804640d"
+            ]
+        ]
+    },
+    {
+        "id": "44374af575e518ed",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1380,
+        "y": 580,
+        "wires": [
+            [
+                "731c9bbc962b7127"
+            ]
+        ]
+    },
+    {
+        "id": "83af99105d41c03c",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1380,
+        "y": 700,
+        "wires": [
+            [
+                "a8608b55ef456d38"
+            ]
+        ]
+    },
+    {
+        "id": "29073f951db9ddd7",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1340,
+        "y": 620,
+        "wires": [
+            [
+                "15e8991816fd13a5",
+                "2968241bf295907f"
+            ]
+        ]
+    },
+    {
+        "id": "4c934b510804640d",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 1340,
+        "y": 740,
+        "wires": [
+            [
+                "9c45f4c23c0cfa49",
+                "376b3a66123d1058"
+            ]
+        ]
+    },
+    {
+        "id": "d93d5ac783adb98b",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "f07ecf947f351204"
+            ]
+        ]
+    },
+    {
+        "id": "d641e8950e18e06d",
+        "type": "junction",
+        "z": "4daefb4a56e356ea",
+        "x": 840,
+        "y": 80,
+        "wires": [
+            [
+                "511ebe85c7329444"
+            ]
+        ]
+    },
+    {
+        "id": "3f051fba655bfa80",
+        "type": "mqtt in",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "topic": "tele/ACmonV1/SCT013",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dccc3b5ab802f58f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "4e85ac9d3af43bbf",
+                "d641e8950e18e06d"
+            ]
+        ]
+    },
+    {
+        "id": "511ebe85c7329444",
+        "type": "debug",
+        "z": "4daefb4a56e356ea",
+        "name": "debug 513",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9929af4a9307386a",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "cb284c50a24164ba",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "label": "Load A state",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1770,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c56fa2c822cbdd2",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "0737cb16b46fc5f8",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "label": "Load B state",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1770,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5167c119daba9375",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.currentA",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 200,
+        "wires": [
+            [
+                "86af44687772f182",
+                "6a45000e1d863751"
+            ]
+        ]
+    },
+    {
+        "id": "11d298699d79dabf",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.currentB",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 280,
+        "wires": [
+            [
+                "1e3fef2320e51465",
+                "3130d3adc1671447"
+            ]
+        ]
+    },
+    {
+        "id": "86af44687772f182",
+        "type": "switch",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0.005",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 160,
+        "wires": [
+            [
+                "deee01b534a0eea5"
+            ],
+            [
+                "4fc7fa8ccade1c24"
+            ]
+        ]
+    },
+    {
+        "id": "deee01b534a0eea5",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 140,
+        "wires": [
+            [
+                "fa8de4036551b66f"
+            ]
+        ]
+    },
+    {
+        "id": "4fc7fa8ccade1c24",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 180,
+        "wires": [
+            [
+                "fa8de4036551b66f"
+            ]
+        ]
+    },
+    {
+        "id": "1e3fef2320e51465",
+        "type": "switch",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0.005",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 280,
+        "wires": [
+            [
+                "5e953d1c5e5b3846"
+            ],
+            [
+                "e9017b950a84d45c"
+            ]
+        ]
+    },
+    {
+        "id": "5e953d1c5e5b3846",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 260,
+        "wires": [
+            [
+                "2354902fdc10b4f5"
+            ]
+        ]
+    },
+    {
+        "id": "e9017b950a84d45c",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 300,
+        "wires": [
+            [
+                "2354902fdc10b4f5"
+            ]
+        ]
+    },
+    {
+        "id": "889d57f12aeb3435",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "cb284c50a24164ba",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Load A current",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1780,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb4c2a2c4ab40e7d",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "0737cb16b46fc5f8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Load B current",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1780,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25bde835c974cfe8",
+        "type": "ui_text",
+        "z": "4daefb4a56e356ea",
+        "group": "cb284c50a24164ba",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Load A current",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1460,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f784f8957f058d76",
+        "type": "ui_text",
+        "z": "4daefb4a56e356ea",
+        "group": "0737cb16b46fc5f8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Load B current",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1460,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "298d940cfefb96e9",
+        "type": "mqtt in",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "topic": "tele/ACmonV2/SCT013",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dccc3b5ab802f58f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 660,
+        "wires": [
+            [
+                "7a847cb0fde32e2e",
+                "d93d5ac783adb98b"
+            ]
+        ]
+    },
+    {
+        "id": "f07ecf947f351204",
+        "type": "debug",
+        "z": "4daefb4a56e356ea",
+        "name": "debug 514",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "731c9bbc962b7127",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "f511f21020bd4d15",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "label": "Load A state",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1770,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8608b55ef456d38",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "686ee84e2ece26b5",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "label": "Load B state",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1770,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe10c89bf6af1f0a",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.currentA",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 620,
+        "wires": [
+            [
+                "ac30a6117df44c4e",
+                "f6d0439add8262cc"
+            ]
+        ]
+    },
+    {
+        "id": "8db4d1c005830338",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.currentB",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 700,
+        "wires": [
+            [
+                "b1a3c7b65eb418ae",
+                "13bd1f3495870408"
+            ]
+        ]
+    },
+    {
+        "id": "ac30a6117df44c4e",
+        "type": "switch",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0.005",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 580,
+        "wires": [
+            [
+                "5b378035cec058b3"
+            ],
+            [
+                "7121023a9fb8fc47"
+            ]
+        ]
+    },
+    {
+        "id": "5b378035cec058b3",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 560,
+        "wires": [
+            [
+                "44374af575e518ed"
+            ]
+        ]
+    },
+    {
+        "id": "7121023a9fb8fc47",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 600,
+        "wires": [
+            [
+                "44374af575e518ed"
+            ]
+        ]
+    },
+    {
+        "id": "b1a3c7b65eb418ae",
+        "type": "switch",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0.005",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 700,
+        "wires": [
+            [
+                "5772299aca160224"
+            ],
+            [
+                "9240ab8ad46e11ee"
+            ]
+        ]
+    },
+    {
+        "id": "5772299aca160224",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 680,
+        "wires": [
+            [
+                "83af99105d41c03c"
+            ]
+        ]
+    },
+    {
+        "id": "9240ab8ad46e11ee",
+        "type": "change",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 720,
+        "wires": [
+            [
+                "83af99105d41c03c"
+            ]
+        ]
+    },
+    {
+        "id": "15e8991816fd13a5",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "f511f21020bd4d15",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Load A current",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1780,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c45f4c23c0cfa49",
+        "type": "ui_chart",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "686ee84e2ece26b5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Load B current",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1780,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2968241bf295907f",
+        "type": "ui_text",
+        "z": "4daefb4a56e356ea",
+        "group": "f511f21020bd4d15",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "A current",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1440,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "376b3a66123d1058",
+        "type": "ui_text",
+        "z": "4daefb4a56e356ea",
+        "group": "686ee84e2ece26b5",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "B current",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1440,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "26cb8d4db28bf979",
+        "type": "ui_button",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "f511f21020bd4d15",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "toggle A",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "toggle",
+        "payloadType": "str",
+        "topic": "cmnd/BorkedS31/Power",
+        "topicType": "str",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "4bc6c6eca7810338"
+            ]
+        ]
+    },
+    {
+        "id": "d4f432ef2090ac98",
+        "type": "ui_button",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "group": "686ee84e2ece26b5",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "toggle B",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "toggle",
+        "payloadType": "str",
+        "topic": "cmnd/S31L_a/Power",
+        "topicType": "str",
+        "x": 120,
+        "y": 500,
+        "wires": [
+            [
+                "201e0579129d9767"
+            ]
+        ]
+    },
+    {
+        "id": "4bc6c6eca7810338",
+        "type": "mqtt out",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d3da52ca9a787511",
+        "x": 310,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "201e0579129d9767",
+        "type": "mqtt out",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dccc3b5ab802f58f",
+        "x": 310,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "cfac2f4eaeb1d3cb",
+        "type": "inject",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "cmnd/BorkedS31/Power",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "4bc6c6eca7810338"
+            ]
+        ]
+    },
+    {
+        "id": "cbf2c5c0d667364a",
+        "type": "inject",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "cmnd/S31L_a/Power",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "201e0579129d9767"
+            ]
+        ]
+    },
+    {
+        "id": "070af69481c93ff1",
+        "type": "inject",
+        "z": "4daefb4a56e356ea",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 1570,
+        "y": 420,
+        "wires": [
+            [
+                "9929af4a9307386a",
+                "889d57f12aeb3435",
+                "5c56fa2c822cbdd2",
+                "fb4c2a2c4ab40e7d",
+                "9c45f4c23c0cfa49",
+                "a8608b55ef456d38",
+                "15e8991816fd13a5",
+                "731c9bbc962b7127"
+            ]
+        ]
+    },
+    {
+        "id": "dccc3b5ab802f58f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto2",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cb284c50a24164ba",
+        "type": "ui_group",
+        "name": "V1 A",
+        "tab": "aca2af52ad67144b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0737cb16b46fc5f8",
+        "type": "ui_group",
+        "name": "V1 B",
+        "tab": "aca2af52ad67144b",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f511f21020bd4d15",
+        "type": "ui_group",
+        "name": "V2 A",
+        "tab": "aca2af52ad67144b",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "686ee84e2ece26b5",
+        "type": "ui_group",
+        "name": "V2 B",
+        "tab": "aca2af52ad67144b",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d3da52ca9a787511",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto0",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "aca2af52ad67144b",
+        "type": "ui_tab",
+        "name": "AC load monitoring",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

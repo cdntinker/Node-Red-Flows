@@ -1,0 +1,1194 @@
+[
+    {
+        "id": "4b1b53154015d17e",
+        "type": "group",
+        "z": "c451c344.5124f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7dc8cbeb0f98c65b",
+            "e045b4c31b9ec32d",
+            "dcce916fc81d39d7",
+            "861504832f34bf12",
+            "ab045aa8f14ff036",
+            "3c6dad7d41bb4f0a",
+            "ed090d03aee8e4ae",
+            "50df445a0e335584",
+            "5c702f973d2d0d6a",
+            "123575fb6e456631",
+            "3302ba80836a6b39",
+            "8e19a807be7830c8",
+            "05874c749a86cea5",
+            "2b02a5154afeda48",
+            "5d8ca7171c8f7c7a",
+            "c584b4a694da02bd",
+            "ce8ba72e3b405d9f",
+            "f258d46ea56194d4",
+            "ea7a47a41642c1df",
+            "2d633d80f6b7ea2c",
+            "25965d9723514f66",
+            "26cf72161632ddb4",
+            "75a6c1d16f9147f7",
+            "cc9e49dd83daf17b",
+            "113b5fe02fe2f21d",
+            "c8d02bd420601325",
+            "ea48aa7644548aae",
+            "382ea30b3e4e122d",
+            "8e3eaf65bce1c1c7",
+            "e28a527eb6bb290b",
+            "62ce29f7a5336ffb",
+            "89333769440b1b41",
+            "ad0a1b7dbf2d994d",
+            "68b6f39054ab7581",
+            "dbe44d395e9794a0",
+            "f3e1cd7da4ca946e",
+            "4fd11d55cf7219bd",
+            "ee4691d5634e71e9",
+            "05a0c0a8a8348f4b",
+            "69aa4a2382159c2b",
+            "97ccb2fc57f63aa1"
+        ],
+        "x": 54,
+        "y": 319,
+        "w": 1272,
+        "h": 382
+    },
+    {
+        "id": "7dc8cbeb0f98c65b",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Lower Basement",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/LowerBasement/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "4fd11d55cf7219bd"
+            ]
+        ]
+    },
+    {
+        "id": "e045b4c31b9ec32d",
+        "type": "mqtt out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Mosquitto1",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3cfa1fac61dca0ec",
+        "x": 1230,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "dcce916fc81d39d7",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Upper Basement",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/UpperBasement/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 480,
+        "wires": [
+            [
+                "ee4691d5634e71e9"
+            ]
+        ]
+    },
+    {
+        "id": "861504832f34bf12",
+        "type": "mqtt out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Mosquitto0",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d3da52ca9a787511",
+        "x": 1230,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ab045aa8f14ff036",
+        "type": "mqtt out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Mosquitto2",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dccc3b5ab802f58f",
+        "x": 1230,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3c6dad7d41bb4f0a",
+        "type": "mqtt out",
+        "z": "c451c344.5124f",
+        "d": true,
+        "g": "4b1b53154015d17e",
+        "name": "SkyNet",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "542e9a8a.0d3104",
+        "x": 1220,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "ed090d03aee8e4ae",
+        "type": "comment",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Request STATUS messages from EVERYTHING",
+        "info": "Each of these inject nodes simply \ncontains a GROUP topic for the \ndevices on your network.\n\n\"tasmotas\" & \"sonoffs\" are for the\ndefault group topics of tasmota.\n\n\"AustinOTAs\" is for the default group\ntopic of AustinOTA devices.\n\nAll the rest are for custom group \ntopics specific to YOUR network.\n",
+        "x": 260,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "50df445a0e335584",
+        "type": "comment",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Adjust these",
+        "info": "You'll need one \"MQTT-Out\" for each \nMQTT broker on your network that \nmight have Tasmota devices connecting.\n",
+        "x": 1220,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5c702f973d2d0d6a",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Testing",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/Testing/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 600,
+        "y": 660,
+        "wires": [
+            [
+                "e28a527eb6bb290b"
+            ]
+        ]
+    },
+    {
+        "id": "123575fb6e456631",
+        "type": "comment",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Taz <= 9.1",
+        "info": "Doesn't seem to do STATUS0",
+        "x": 820,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3302ba80836a6b39",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 420,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "8e19a807be7830c8",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 460,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "05874c749a86cea5",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 500,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "2b02a5154afeda48",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "11",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "11",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 580,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "5d8ca7171c8f7c7a",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "tasmotas",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/tasmotas/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 610,
+        "y": 420,
+        "wires": [
+            [
+                "62ce29f7a5336ffb"
+            ]
+        ]
+    },
+    {
+        "id": "c584b4a694da02bd",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "sonoffs",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/sonoffs/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 600,
+        "y": 460,
+        "wires": [
+            [
+                "89333769440b1b41"
+            ]
+        ]
+    },
+    {
+        "id": "ce8ba72e3b405d9f",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Ground Floor",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/GroundFloor/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 180,
+        "y": 520,
+        "wires": [
+            [
+                "05a0c0a8a8348f4b"
+            ]
+        ]
+    },
+    {
+        "id": "f258d46ea56194d4",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Upper Floor",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/UpperFloor/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 170,
+        "y": 560,
+        "wires": [
+            [
+                "69aa4a2382159c2b"
+            ]
+        ]
+    },
+    {
+        "id": "ea7a47a41642c1df",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Da Lab",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/DaLab/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "f3e1cd7da4ca946e"
+            ]
+        ]
+    },
+    {
+        "id": "2d633d80f6b7ea2c",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "AustinOTAs",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/AustinOTAs/DevInfo",
+        "payload": "",
+        "payloadType": "str",
+        "x": 610,
+        "y": 520,
+        "wires": [
+            [
+                "382ea30b3e4e122d"
+            ]
+        ]
+    },
+    {
+        "id": "25965d9723514f66",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Bork",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/Bork/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 590,
+        "y": 580,
+        "wires": [
+            [
+                "8e3eaf65bce1c1c7"
+            ]
+        ]
+    },
+    {
+        "id": "26cf72161632ddb4",
+        "type": "inject",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "Bork2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "cmnd/Bork2/STATUS",
+        "payload": "",
+        "payloadType": "str",
+        "x": 600,
+        "y": 620,
+        "wires": [
+            [
+                "cc9e49dd83daf17b"
+            ]
+        ]
+    },
+    {
+        "id": "75a6c1d16f9147f7",
+        "type": "link in",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link in 72",
+        "links": [
+            "113b5fe02fe2f21d",
+            "382ea30b3e4e122d",
+            "68b6f39054ab7581"
+        ],
+        "x": 1105,
+        "y": 500,
+        "wires": [
+            [
+                "e045b4c31b9ec32d",
+                "ab045aa8f14ff036",
+                "861504832f34bf12",
+                "3c6dad7d41bb4f0a"
+            ]
+        ]
+    },
+    {
+        "id": "cc9e49dd83daf17b",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Bork2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/Bork2/STATUS",
+        "topicType": "str",
+        "x": 730,
+        "y": 620,
+        "wires": [
+            [
+                "113b5fe02fe2f21d"
+            ]
+        ]
+    },
+    {
+        "id": "113b5fe02fe2f21d",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link out 154",
+        "mode": "link",
+        "links": [
+            "75a6c1d16f9147f7"
+        ],
+        "x": 835,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c8d02bd420601325",
+        "type": "link in",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link in 74",
+        "links": [
+            "ea48aa7644548aae",
+            "62ce29f7a5336ffb",
+            "89333769440b1b41",
+            "ad0a1b7dbf2d994d"
+        ],
+        "x": 855,
+        "y": 500,
+        "wires": [
+            [
+                "3302ba80836a6b39",
+                "8e19a807be7830c8",
+                "05874c749a86cea5",
+                "2b02a5154afeda48",
+                "dbe44d395e9794a0",
+                "97ccb2fc57f63aa1"
+            ]
+        ]
+    },
+    {
+        "id": "ea48aa7644548aae",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link out 156",
+        "mode": "link",
+        "links": [
+            "c8d02bd420601325"
+        ],
+        "x": 915,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "382ea30b3e4e122d",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link out 158",
+        "mode": "link",
+        "links": [
+            "75a6c1d16f9147f7"
+        ],
+        "x": 715,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8e3eaf65bce1c1c7",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Bork",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/Bork/STATUS",
+        "topicType": "str",
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "ea48aa7644548aae",
+                "113b5fe02fe2f21d"
+            ]
+        ]
+    },
+    {
+        "id": "e28a527eb6bb290b",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Testing",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/Testing/STATUS",
+        "topicType": "str",
+        "x": 740,
+        "y": 660,
+        "wires": [
+            [
+                "ea48aa7644548aae",
+                "113b5fe02fe2f21d"
+            ]
+        ]
+    },
+    {
+        "id": "62ce29f7a5336ffb",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "d": true,
+        "g": "4b1b53154015d17e",
+        "name": "link out 159",
+        "mode": "link",
+        "links": [
+            "c8d02bd420601325"
+        ],
+        "x": 715,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "89333769440b1b41",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "d": true,
+        "g": "4b1b53154015d17e",
+        "name": "link out 160",
+        "mode": "link",
+        "links": [
+            "c8d02bd420601325"
+        ],
+        "x": 715,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "ad0a1b7dbf2d994d",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link out 161",
+        "mode": "link",
+        "links": [
+            "c8d02bd420601325"
+        ],
+        "x": 475,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "68b6f39054ab7581",
+        "type": "link out",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "link out 162",
+        "mode": "link",
+        "links": [
+            "75a6c1d16f9147f7"
+        ],
+        "x": 1055,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "dbe44d395e9794a0",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "10",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 540,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "f3e1cd7da4ca946e",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "DaLab",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/DaLab/STATUS",
+        "topicType": "str",
+        "x": 350,
+        "y": 600,
+        "wires": [
+            [
+                "ad0a1b7dbf2d994d"
+            ]
+        ]
+    },
+    {
+        "id": "4fd11d55cf7219bd",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "LB",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/LowerBasement/STATUS",
+        "topicType": "str",
+        "x": 350,
+        "y": 440,
+        "wires": [
+            [
+                "ad0a1b7dbf2d994d"
+            ]
+        ]
+    },
+    {
+        "id": "ee4691d5634e71e9",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "UB",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/UpperBasement/STATUS",
+        "topicType": "str",
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "ad0a1b7dbf2d994d"
+            ]
+        ]
+    },
+    {
+        "id": "05a0c0a8a8348f4b",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "GF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/GroundFloor/STATUS",
+        "topicType": "str",
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "ad0a1b7dbf2d994d"
+            ]
+        ]
+    },
+    {
+        "id": "69aa4a2382159c2b",
+        "type": "ui_button",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "",
+        "group": "c153f7f9b21a8743",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "UF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "cmnd/UpperFloor/STATUS",
+        "topicType": "str",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "ad0a1b7dbf2d994d"
+            ]
+        ]
+    },
+    {
+        "id": "97ccb2fc57f63aa1",
+        "type": "change",
+        "z": "c451c344.5124f",
+        "g": "4b1b53154015d17e",
+        "name": "no payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 380,
+        "wires": [
+            [
+                "68b6f39054ab7581"
+            ]
+        ]
+    },
+    {
+        "id": "3cfa1fac61dca0ec",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d3da52ca9a787511",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto0",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dccc3b5ab802f58f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Mosquitto2",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "542e9a8a.0d3104",
+        "type": "mqtt-broker",
+        "name": "SkyNet",
+        "broker": "skynet.tinkernet.ca",
+        "port": "1883",
+        "clientid": "NodeRed1",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c153f7f9b21a8743",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "0f93a9f7b46e6243",
+        "order": 2,
+        "disp": false,
+        "width": "2",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0f93a9f7b46e6243",
+        "type": "ui_tab",
+        "name": "Device Detection (groups)",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]

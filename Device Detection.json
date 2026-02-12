@@ -274,6 +274,94 @@
         "h": 172
     },
     {
+        "id": "67082fec7853af74",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "BULK (all devices)",
+        "style": {
+            "fill": "#ffff7f",
+            "label": true,
+            "color": "#000000",
+            "stroke": "#9363b7"
+        },
+        "nodes": [
+            "20609b1e1f7686a6",
+            "a504521b49b59771",
+            "8cb359df7cf2fcd7",
+            "5539caf115f164c8"
+        ],
+        "x": 14,
+        "y": 879,
+        "w": 492,
+        "h": 122
+    },
+    {
+        "id": "76fac429bab8eb92",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Testing (Bork / Bork2 / Testing)",
+        "style": {
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000",
+            "stroke": "#9363b7"
+        },
+        "nodes": [
+            "942e9ef877f91564",
+            "c4a41112c2e66e70",
+            "221be4190a5f1a89",
+            "b74ad1c1937b634d"
+        ],
+        "x": 554,
+        "y": 1079,
+        "w": 492,
+        "h": 122
+    },
+    {
+        "id": "f6fb366a50b52ffd",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Lab (DaLab)",
+        "style": {
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000",
+            "stroke": "#9363b7"
+        },
+        "nodes": [
+            "c3d1d909b2efee0c",
+            "a9ab635bd0d46dfc",
+            "789786f45eb3220e",
+            "216c5b7fecc918b6"
+        ],
+        "x": 554,
+        "y": 939,
+        "w": 492,
+        "h": 122
+    },
+    {
+        "id": "9585aa37fe7865ef",
+        "type": "group",
+        "z": "800e55ff81b5378e",
+        "name": "Production (LowerBasement / UpperBasement / GroundFloor / UpperFloor)",
+        "style": {
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000",
+            "stroke": "#9363b7"
+        },
+        "nodes": [
+            "70d35b327e4f3464",
+            "8460cb794097905e",
+            "e784399bf66eb1c6",
+            "1c89f70da45672cc"
+        ],
+        "x": 554,
+        "y": 799,
+        "w": 492,
+        "h": 122
+    },
+    {
         "id": "f346bfd2ef7788ef",
         "type": "mqtt in",
         "z": "800e55ff81b5378e",
@@ -1252,36 +1340,6 @@
         "wires": []
     },
     {
-        "id": "24dd80207246cf20",
-        "type": "comment",
-        "z": "800e55ff81b5378e",
-        "name": "Bork / Bork2 / Testing",
-        "info": "",
-        "x": 600,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "873ec73805726de7",
-        "type": "comment",
-        "z": "800e55ff81b5378e",
-        "name": "DaLab",
-        "info": "",
-        "x": 550,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "bfd5cfef2c3fbdcc",
-        "type": "comment",
-        "z": "800e55ff81b5378e",
-        "name": "LowerBasement / UpperBasement / GroundFloor / UpperFloor",
-        "info": "",
-        "x": 720,
-        "y": 1100,
-        "wires": []
-    },
-    {
         "id": "382782b60be93edc",
         "type": "change",
         "z": "800e55ff81b5378e",
@@ -1334,6 +1392,7 @@
         "id": "20609b1e1f7686a6",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "67082fec7853af74",
         "name": "debug 555",
         "active": true,
         "tosidebar": true,
@@ -1343,7 +1402,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
+        "x": 390,
         "y": 920,
         "wires": []
     },
@@ -1351,6 +1410,7 @@
         "id": "a504521b49b59771",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "67082fec7853af74",
         "name": "IoTDevicesA",
         "props": [
             {
@@ -1368,7 +1428,7 @@
         "topic": "",
         "payload": "IoTDevicesA",
         "payloadType": "flow",
-        "x": 110,
+        "x": 130,
         "y": 920,
         "wires": [
             [
@@ -1381,6 +1441,7 @@
         "id": "8cb359df7cf2fcd7",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "67082fec7853af74",
         "name": "debug 556",
         "active": true,
         "tosidebar": true,
@@ -1389,7 +1450,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
+        "x": 390,
         "y": 960,
         "wires": []
     },
@@ -1397,6 +1458,7 @@
         "id": "5539caf115f164c8",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "67082fec7853af74",
         "name": "IoTCount",
         "props": [
             {
@@ -1414,7 +1476,7 @@
         "topic": "",
         "payload": "IoTCount",
         "payloadType": "flow",
-        "x": 100,
+        "x": 120,
         "y": 960,
         "wires": [
             [
@@ -2094,6 +2156,7 @@
         "id": "942e9ef877f91564",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "76fac429bab8eb92",
         "name": "debug 573",
         "active": true,
         "tosidebar": true,
@@ -2103,14 +2166,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 860,
+        "x": 930,
+        "y": 1120,
         "wires": []
     },
     {
         "id": "c4a41112c2e66e70",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "76fac429bab8eb92",
         "name": "TestDevicesA",
         "props": [
             {
@@ -2128,8 +2192,8 @@
         "topic": "",
         "payload": "TestDevicesA",
         "payloadType": "flow",
-        "x": 590,
-        "y": 860,
+        "x": 670,
+        "y": 1120,
         "wires": [
             [
                 "942e9ef877f91564"
@@ -2141,6 +2205,7 @@
         "id": "221be4190a5f1a89",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "76fac429bab8eb92",
         "name": "debug 574",
         "active": true,
         "tosidebar": true,
@@ -2149,14 +2214,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 900,
+        "x": 930,
+        "y": 1160,
         "wires": []
     },
     {
         "id": "b74ad1c1937b634d",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "76fac429bab8eb92",
         "name": "TestCount",
         "props": [
             {
@@ -2174,8 +2240,8 @@
         "topic": "",
         "payload": "TestCount",
         "payloadType": "flow",
-        "x": 580,
-        "y": 900,
+        "x": 660,
+        "y": 1160,
         "wires": [
             [
                 "221be4190a5f1a89"
@@ -2187,6 +2253,7 @@
         "id": "c3d1d909b2efee0c",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "f6fb366a50b52ffd",
         "name": "debug 575",
         "active": true,
         "tosidebar": true,
@@ -2196,14 +2263,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 1000,
+        "x": 930,
+        "y": 980,
         "wires": []
     },
     {
         "id": "a9ab635bd0d46dfc",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "f6fb366a50b52ffd",
         "name": "LabDevicesA",
         "props": [
             {
@@ -2221,8 +2289,8 @@
         "topic": "",
         "payload": "LabDevicesA",
         "payloadType": "flow",
-        "x": 590,
-        "y": 1000,
+        "x": 670,
+        "y": 980,
         "wires": [
             [
                 "c3d1d909b2efee0c"
@@ -2234,6 +2302,7 @@
         "id": "789786f45eb3220e",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "f6fb366a50b52ffd",
         "name": "debug 576",
         "active": true,
         "tosidebar": true,
@@ -2242,14 +2311,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 1040,
+        "x": 930,
+        "y": 1020,
         "wires": []
     },
     {
         "id": "216c5b7fecc918b6",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "f6fb366a50b52ffd",
         "name": "LabCount",
         "props": [
             {
@@ -2267,8 +2337,8 @@
         "topic": "",
         "payload": "LabCount",
         "payloadType": "flow",
-        "x": 580,
-        "y": 1040,
+        "x": 660,
+        "y": 1020,
         "wires": [
             [
                 "789786f45eb3220e"
@@ -2280,6 +2350,7 @@
         "id": "70d35b327e4f3464",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "9585aa37fe7865ef",
         "name": "debug 577",
         "active": true,
         "tosidebar": true,
@@ -2289,14 +2360,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 1140,
+        "x": 930,
+        "y": 840,
         "wires": []
     },
     {
         "id": "8460cb794097905e",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "9585aa37fe7865ef",
         "name": "ProdDevicesA",
         "props": [
             {
@@ -2314,8 +2386,8 @@
         "topic": "",
         "payload": "ProdDevicesA",
         "payloadType": "flow",
-        "x": 590,
-        "y": 1140,
+        "x": 670,
+        "y": 840,
         "wires": [
             [
                 "70d35b327e4f3464"
@@ -2327,6 +2399,7 @@
         "id": "e784399bf66eb1c6",
         "type": "debug",
         "z": "800e55ff81b5378e",
+        "g": "9585aa37fe7865ef",
         "name": "debug 578",
         "active": true,
         "tosidebar": true,
@@ -2335,14 +2408,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 1180,
+        "x": 930,
+        "y": 880,
         "wires": []
     },
     {
         "id": "1c89f70da45672cc",
         "type": "inject",
         "z": "800e55ff81b5378e",
+        "g": "9585aa37fe7865ef",
         "name": "ProdCount",
         "props": [
             {
@@ -2360,8 +2434,8 @@
         "topic": "",
         "payload": "ProdCount",
         "payloadType": "flow",
-        "x": 580,
-        "y": 1180,
+        "x": 660,
+        "y": 880,
         "wires": [
             [
                 "e784399bf66eb1c6"
@@ -3546,16 +3620,6 @@
         "statusType": "auto",
         "x": 370,
         "y": 820,
-        "wires": []
-    },
-    {
-        "id": "0b81691c7003236f",
-        "type": "comment",
-        "z": "800e55ff81b5378e",
-        "name": "BULK (all devices)",
-        "info": "",
-        "x": 110,
-        "y": 880,
         "wires": []
     },
     {
